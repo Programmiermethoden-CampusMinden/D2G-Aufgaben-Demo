@@ -1,0 +1,11 @@
+name: Deploy-to-Grading
+on:
+  pull_request:
+  workflow_dispatch:
+  
+jobs:
+  deploy-to-grading:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: programmiermethoden/deploy-to-grading@master
