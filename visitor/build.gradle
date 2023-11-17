@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'com.diffplug.spotless' version '6.+'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains:annotations:23.0.0"
+    
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation "org.powermock:powermock-module-junit4:2.+"
+    testImplementation "org.powermock:powermock-api-mockito2:2.+"
+}
+
+sourceCompatibility = 17
+
+test {
+    useJUnit()
+    reports.junitXml.outputLocation = file("build/results/junit/xml")
+}
+
+checkstyle {
+    toolVersion = "10.2"
+    configFile = file(".config/checkstyle/javadoc.xml")
+    reportsDir = file("build/results/javadoc")
+}
+
+tasks.withType(Checkstyle) {
+    reports {
+        xml.required = true
+        html.required = false
+    }
+}
+
+spotless {
+    java {
+        googleJavaFormat().aosp().reflowLongStrings()
+    }
+}
