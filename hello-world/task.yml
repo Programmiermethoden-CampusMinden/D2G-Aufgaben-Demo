@@ -1,0 +1,16 @@
+name: Hello World
+description: Geben Sie "Hello World!" auf der Konsole aus.
+metrics:
+- compile:
+    points: 2
+- junit:
+    default_points: 1
+- javadoc:
+    max_points: 2
+    deduction_per_error: 1
+    group_errors: true
+- codeformat:
+    points: 2
+no_override:
+- src/main/java/Main.java
+

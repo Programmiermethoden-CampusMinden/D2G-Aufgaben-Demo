@@ -1,0 +1,9 @@
+name: Demo assignment
+description: This is an demo assignment for you to test Deploy-to-Grading.
+template_repository: https://github.com/programmiermethoden/d2g-aufgaben-demo
+due_date: 2029-01-01T00:00
+tasks:
+- hello-world
+- observer
+- visitor
+
