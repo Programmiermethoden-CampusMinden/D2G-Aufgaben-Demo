@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: programmiermethoden/deploy-to-grading@master
+      - uses: Programmiermethoden-CampusMinden/deploy-to-grading@master
