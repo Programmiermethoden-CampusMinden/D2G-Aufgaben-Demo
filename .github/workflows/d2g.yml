@@ -2,7 +2,7 @@ name: Deploy-to-Grading
 on:
   pull_request:
   workflow_dispatch:
-  
+
 jobs:
   deploy-to-grading:
     runs-on: ubuntu-latest
