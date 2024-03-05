@@ -3,7 +3,7 @@
 Deploy-to-Grading (D2G) is a toolchain for automated analysis and grading of
 programming tasks. This repository contains a demo assignment that can be used
 to test the D2G pipeline. For more information on D2G, take a look the
-[D2G repository](https://github.com/Programmiermethoden/Deploy-to-Grading/).
+[D2G repository](https://github.com/Programmiermethoden-CampusMinden/Deploy-to-Grading).
 
 ## How to demo
 
