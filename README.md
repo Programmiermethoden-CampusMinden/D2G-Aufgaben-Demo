@@ -17,7 +17,7 @@ opening the console output of the workflow.
 
 ## Credits
 
-This project is funded by [Stiftung für Innovation in der Hochschullehre](https://stiftung-hochschullehre.de)
+This project was funded by [Stiftung für Innovation in der Hochschullehre](https://stiftung-hochschullehre.de)
 (["Freiraum 2022"](https://stiftung-hochschullehre.de/foerderung/freiraum2022/)).
 
 ---
