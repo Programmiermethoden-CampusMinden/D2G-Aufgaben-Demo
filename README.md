@@ -24,8 +24,8 @@ This project was funded by [Stiftung für Innovation in der Hochschullehre](http
 
 ## License
 
-This [work](https://github.com/Programmiermethoden/D2G-Aufgaben-Demo) by
+This [work](https://github.com/Programmiermethoden-CampusMinden/D2G-Aufgaben-Demo) by
 [André Kirsch](https://github.com/AKirsch1),
 [Carsten Gips](https://github.com/cagix), and
-[contributors](https://github.com/Programmiermethoden/D2G-Aufgaben-Demo/graphs/contributors)
+[contributors](https://github.com/Programmiermethoden-CampusMinden/D2G-Aufgaben-Demo/graphs/contributors)
 is licensed under [MIT](LICENSE.md).
