@@ -11,4 +11,3 @@ metrics:
     group_errors: false
 - codeformat:
     points: 5
-

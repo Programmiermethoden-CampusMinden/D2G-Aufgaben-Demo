@@ -13,4 +13,3 @@ metrics:
     points: 2
 no_override:
 - src/main/java/Main.java
-
