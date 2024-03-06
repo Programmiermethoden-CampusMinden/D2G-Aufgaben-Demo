@@ -14,7 +14,7 @@ dependencies {
     testImplementation "org.powermock:powermock-api-mockito2:2.+"
 }
 
-sourceCompatibility = 17
+sourceCompatibility = 21
 
 test {
     useJUnit()

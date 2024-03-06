@@ -12,7 +12,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
 }
 
-sourceCompatibility = 17
+sourceCompatibility = 21
 
 test {
     useJUnit()
